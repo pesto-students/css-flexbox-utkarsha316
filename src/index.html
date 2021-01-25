@@ -4,10 +4,131 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css" />
-  <title>Table UI</title>
+  <title>Table UI fdsfds</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/line-awesome/1.3.0/line-awesome/css/line-awesome.min.css"
+    integrity="sha512-vebUliqxrVkBy3gucMhClmyQP9On/HAWQdKDXRaAlb/FKuTbxkjPKUyqVOxAcGwFDka79eTF+YXwfke1h3/wfg=="
+    crossorigin="anonymous"
+  />
 </head>
 <body>
-  <h1>Table UI</h1>
-  <script src="./index.js"></script>
+
+  
+  <section class="content">
+    
+    <ul>
+      <li style="background-color: #F0F8FB;">
+      <p style="justify-content:flex-start">
+          <label style="font-size: 20px;">Show</label>
+          <select  id="rows">
+            <option value="9">9</option>
+            <option value="8">8</option>
+            <option value="7">7</option>
+            <option value="6">6</option>
+          </select>
+          <label style="font-size: 20px;">entries</label>
+      </p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p style="justify-content:flex-end;">
+        <button type="submit" style="background-color:white;border: none;">
+          <i class="fa fa-search" ></i></button>
+          <input type="text" placeholder="Search.." name="search" style="border: none;">  
+      </p>
+     </li>
+      <li>
+        <p>FIRST NAME</p>
+        <p>LAST NAME</p>
+        <p>EMAIL</p>
+        <p>CREATED AT</p>
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Manuei  </p>
+        <p>Sutton</p>
+        <p>usike@udka.net</p>
+        <p>09-11-2020</p>
+        <p><button  id="a" style="display: none;">GO To WorkPlace</button></p>
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Daisy  </p>
+        <p>Kelly</p>
+        <p>ho@kepuf.edu</p>
+        <p>09-11-2020</p>
+        <p><button  id="a"  style="display: none;">GO To WorkPlace</button></p>
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Shane  </p>
+        <p>Underwood</p>
+        <p>afawi@ajsenod.edu</p>
+        <p>09-11-2020</p>
+        <p><button  id="a"  style="display: none;">GO To WorkPlace</button></p>
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Ray  </p>
+        <p>Wise</p>
+        <p>vebgeimo@ven.co.uk</p>
+        <p>09-11-2020</p>
+        <p><button id="a"  style="display: none;">GO To WorkPlace</button></p> 
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Banks  </p>
+        <p>Roxie</p>
+        <p>zosub@bakus.edu</p>
+        <p>09-11-2020</p>
+        <p><button  id="a"  style="display: none;">GO To WorkPlace</button></p>
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Alfred  </p>
+        <p>Reese</p>
+        <p>upigohi@sop.edu</p>
+        <p>09-11-2020</p>
+        <p><button  id="a"  style="display: none;">GO To WorkPlace</button></p>
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Maurice  </p>
+        <p>Lowe</p>
+        <p>hib@oksuod.gov</p>
+        <p>09-11-2020</p>
+        <p><button  id="a"  style="display: none;">GO To WorkPlace</button></p>
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Sue  </p>
+        <p>Harmmend</p>
+        <p>zosub@bakus.edu</p>
+        <p>09-11-2020</p>
+        <p><button  id="a"  style="display: none;">GO To WorkPlace</button></p>
+      </li>
+      <li onmouseover="wbtn()">
+        <p>Rien  </p>
+        <p>stoole</p>
+        <p>rile@sop.edu</p>
+        <p>09-11-2020</p>
+        <p><button  id="a"  style="display: none;">GO To WorkPlace</button></p>
+      </li>
+    <button type="button" class="r">next <i class='fas fa-angle-right' ></i></button>
+    <button type="button" class="r" disabled><i class='fas fa-angle-left' ></i> Previous</button>
+    </ul>
+    
+</section>
+  <script  src="./index.js"></script>
+  <script>
+   function wbtn()
+    {
+
+        if(document.getElementById("a").style.display=="none")
+        {
+          document.getElementById("a").style.display="block";
+        }
+
+    }</script>
 </body>
 </html>
