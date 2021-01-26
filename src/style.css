@@ -2,38 +2,38 @@ body{
   background-color:#F0F8FB; 
   
 }
-   
   section.content {
     flex: 1 0 auto;
     display: flex;
     flex-direction: column;
-    background: :#F0F8FB;
+    background: #F0F8FB;
     margin-top: 50px;
     padding: 0 2rem;
   }
-  
-  section.content li {
+ section.content li {
     display:flex;
-    
     padding: 0 2rem;
     flex-direction: row;
     background-color:white;
-    margin: 6px;
-    
+    margin: 6px; 
   }
+  
 section.content li p{
   display: flex;
   padding: 0 2rem;
   min-height: 20px;
   justify-content: space-between;
+  flex-direction: row;
   width: 200px;
 }
-
 section.content li:hover{
-  background-color: cornflowerblue; 
+  background-color:white; 
   margin: 0 auto ;
  transform: scale(1);
+ box-shadow: 2px 2px 5px #888888;
+
 }
+
 #a{
   background-color:white; /* Green */
   border: black;
@@ -51,9 +51,8 @@ button.r{
   padding: 10px 30px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  float: right;
+  float : right;
   margin: 6px;
 
 }
@@ -63,11 +62,29 @@ button.b{
  select{
    padding:5px 5px; 
  }
- input[type=text] {
-  
+  input[type=text] {
   padding: 6px;
   border: none;
   font-size: 17px;
 }
-
- 
+#flexshow{
+  background-color:  #F0F8FB;
+  box-shadow: none;
+}
+#flexshow p.flexstart{
+  display: flex;
+  padding: 0 2rem;
+  background-color: #F0F8FB;
+  min-height: 20px;
+  width: 1000px;
+}
+#flexshow p.flexend button{
+  border: none;
+}
+label{
+font-size: 20px;
+}
+button{
+  background-color: white;
+  border: none;
+}
