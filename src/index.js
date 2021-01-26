@@ -1,10 +1,9 @@
-
-   function wbtn()
+  
+function wbtn() {
+    var x = document.getElementById("a");
+    if (x.style.display === "none") 
     {
-
-        if(document.getElementById("a").style.display=="none")
-        {
-          document.getElementById("a").style.display="block";
-        }
-
+        x.style.display = "block";
     }
+
+}
